@@ -139,9 +139,7 @@ public class BookRepository {
                 .getSingleResult();
     }
 
-    // =========================================================
-    //  GÉNÉRATION ISBN  (fournie par le professeur)
-    // =========================================================
+
 
     private String generateIsbn() {
         String[] prefixes = {"978", "979"};
